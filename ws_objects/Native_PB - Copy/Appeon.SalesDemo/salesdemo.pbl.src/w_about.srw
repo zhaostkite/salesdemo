@@ -74,6 +74,8 @@ event open;call super::open;string ls_version,ls_detailversion
 environment env
 integer rtn
 
+//this is a test.
+
 rtn = GetEnvironment(env)
 
 IF rtn <> 1 THEN RETURN
